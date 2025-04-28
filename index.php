@@ -13,8 +13,13 @@
 </head>
 
 <body>
+    <input type="checkbox" id="checkbox">
     <header class="header">
-        <h2 class="u-name">SIDE <b>BAR</b></h2>
+        <h2 class="u-name">SIDE <b>BAR</b>
+            <label for="checkbox">
+                <i id="navbtn" class="fa fa-bars" aria-hidden="true"></i>
+            </label>
+        </h2>
         <i class="fa fa-user" aria-hidden="true"></i>
     </header>
 
@@ -28,6 +33,36 @@
                         <a href="#">
                             <i class="fa-solid fa-desktop"></i>
                             <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>Message</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-comment"></i>
+                            <span>Comment</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-info-circle"></i>
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-cog"></i>
+                            <span>Setting</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-power-off"></i>
+                            <span>Logout</span>
                         </a>
                     </li>
                 </ul>
